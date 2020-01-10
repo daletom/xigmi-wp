@@ -510,8 +510,6 @@ body.page .main-navigation {display: block;}
 .widget_calendar .calendar_wrap table td, .widget_calendar .calendar_wrap table th {border: none;}
 .widget_calendar .calendar_wrap a {text-decoration: underline;}
 .entry .entry-content > *, .entry .entry-summary > * {margin: 32px 0;max-width: 100%;}
-@media only screen and (min-width: 768px) {.entry .entry-content > *, .entry .entry-summary > * {max-width: calc(8 * ( 100vw / 12 ) - 28px);}}
-@media only screen and (min-width: 1168px) {.entry .entry-content > *, .entry .entry-summary > * {max-width: calc(6 * ( 100vw / 12 ) - 28px);}}
 @media only screen and (min-width: 768px) {.entry .entry-content > *, .entry .entry-summary > * {margin: 32px 0;}}
 .entry .entry-content > * > *:first-child, .entry .entry-summary > * > *:first-child {margin-top: 0;}
 .entry .entry-content > * > *:last-child, .entry .entry-summary > * > *:last-child {margin-bottom: 0;}
